@@ -40,6 +40,13 @@ function arrayElementsCombinationBySum(arr, sum = 10) {
 ```
 let testArr = [-50, 2, 3, 5, 12, 22, 34, 45, 55, 60, 100];
 console.log(arrayElementsCombinationBySum(testArr, 10));
+/* results
+[-50, 2, 3, 55]
+[-50, 3, 12, 45]
+[-50, 5, 55]
+[-50, 60]
+[2, 3, 5]
+*/
 ```
 	
 	
